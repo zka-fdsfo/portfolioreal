@@ -1,0 +1,12 @@
+body{
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+}
+@import "tailwindcss";
+
+@font-face {
+  font-family: f1;
+  src: url(../public/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+  font-weight: 100;
+}
