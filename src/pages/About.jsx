@@ -1,4 +1,6 @@
 import React, { useRef } from "react";
+import pro1 from "../assets/pro1.png";
+
 
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -185,11 +187,12 @@ height: "110dvh",
 
             {/* Image */}
             <img
-              ref={imgpro}
-              src="src/assets/pro1.png"
-              alt=""
-              className=" absolute  lg:-top-[20%] z-30 h-34 w-34 object-cover rounded-full mx-auto my-auto"
-            />
+  ref={imgpro}
+  src={pro1}
+  alt=""
+  className="absolute lg:-top-[20%] z-30 h-34 w-34 object-cover rounded-full mx-auto my-auto"
+/>
+
           </div>
         </div>
       </div>
