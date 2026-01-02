@@ -4,7 +4,7 @@ import Box from './pages/Box'
 import About from './pages/About'
 import Experience from './pages/Experience'
 import Project from './pages/Project'
-import Footer from './pages/footer.jsx'
+import Footer from './pages/Footer.jsx'
 
 const App = () => {
   return (
