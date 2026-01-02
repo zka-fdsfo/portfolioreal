@@ -113,7 +113,7 @@ height: "110dvh",
     return () => split.revert();
   }, []);
   return (
-    <div className=" lg:h-[180vh] h-[150vh] w-screen flex bg-red-950/50 justify-center overflow-hidden">
+    <div className=" lg:h-[180vh] h-[150vh] w-screen  relative flex bg-red-950/50 justify-center overflow-hidden">
       <div ref={a} className="w-full h-full relative">
         <video
           ref={img}

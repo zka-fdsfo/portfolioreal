@@ -3,6 +3,8 @@ import Home from './pages/Home'
 import Box from './pages/Box'
 import About from './pages/About'
 import Experience from './pages/Experience'
+import Project from './pages/Project'
+import Footer from './pages/footer.jsx'
 
 const App = () => {
   return (
@@ -11,7 +13,9 @@ const App = () => {
       <Home />
    
       <About />
-    
+  
+    <Project />
+    <Footer />
      
     </div>
   )
